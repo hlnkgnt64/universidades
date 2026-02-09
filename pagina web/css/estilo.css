@@ -1,0 +1,88 @@
+body{
+ margin: 0;
+ font-family: Arial, Arial, Helvetica, sans-serif;
+ background-color: white;
+ color:blue;   
+}
+header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header h2 {
+    margin-top: 10px;
+    font-weight: normal;
+}
+section {
+    padding: 20px;
+}
+article {
+    background-color: white;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+article img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@media (max-width: 600px) {
+    article {
+        width: 90%;
+    }
+}
+.hero {
+    background-image: url("../img/fondo-de-uni.png");
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-contenido {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.hero-contenido h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-contenido p {
+    font-size: 18px;
+}
+.btn-vermas {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #006341;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-vermas:hover {
+    background-color: #004d32;
+}
+
